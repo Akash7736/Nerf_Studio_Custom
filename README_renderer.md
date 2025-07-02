@@ -4,184 +4,208 @@ This directory contains Python scripts to render new views from your trained NeR
 
 ## Files
 
-- `simple_renderer.py`: Simple, focused functions for rendering new views
-- `render_new_views.py`: More comprehensive renderer class with additional features
+- `custom_camera_renderer.py`: Main renderer with custom camera poses and dataset cameras
+- `fast_renderer.py`: Fast batch rendering for multiple images
+- `exact_nerfstudio_cli.py`: Dataset validation rendering (exact nerfstudio CLI method)
+- `simple_renderer.py`: Core utility functions used by other renderers
 - `README_renderer.md`: This documentation file
 
 ## Quick Start
 
-### 1. Basic Usage
+### 1. Custom Camera Poses
 
-```python
-from simple_renderer import load_trained_model, render_and_save
-
-# Load your trained model
-checkpoint_path = "outputs/unnamed/my-method/2025-07-02_200704/nerfstudio_models/step-000029999.ckpt"
-model = load_trained_model(checkpoint_path)
-
-# Render a new view
-render_and_save(
-    model=model,
-    position=(2.0, 1.0, 2.0),    # Camera position (x, y, z)
-    look_at=(0.0, 0.0, 0.0),     # Point to look at (x, y, z)
-    output_path="my_view.png",
-    fov=60.0,                    # Field of view in degrees
-    image_width=800,
-    image_height=600
-)
-```
-
-### 2. Run Example Script
+Render from arbitrary camera positions:
 
 ```bash
-python simple_renderer.py
+# Basic custom camera
+python custom_camera_renderer.py --mode custom \
+    --position 0.3 0.3 0.3 \
+    --look_at 0.0 0.0 0.0 \
+    --fov 60 \
+    --width 400 \
+    --height 300 \
+    --output my_view.png
+
+# Different angle with narrow FOV
+python custom_camera_renderer.py --mode custom \
+    --position -0.2 0.4 0.2 \
+    --look_at 0.0 0.0 0.0 \
+    --fov 45 \
+    --width 800 \
+    --height 600
 ```
 
-This will generate three example images:
-- `rendered_view_1.png`: View from position (2, 1, 2) looking at origin
-- `rendered_view_2.png`: View from position (-1.5, 0.5, 1.5) looking at origin
-- `rendered_view_3.png`: View from above with custom up vector
+### 2. Fast Batch Rendering
+
+Render multiple images efficiently:
+
+```bash
+# Render 10 images quickly
+python fast_renderer.py \
+    --num_images 10 \
+    --width 200 \
+    --height 150 \
+    --output_dir renders/batch
+```
+
+### 3. Dataset Validation
+
+Render using the same cameras as training/validation:
+
+```bash
+# Render test split cameras
+python exact_nerfstudio_cli.py \
+    --split test \
+    --num_images 4 \
+    --output_dir renders/validation
+```
 
 ## Function Reference
 
-### `load_trained_model(checkpoint_path, device="cuda")`
+### `custom_camera_renderer.py`
 
-Loads a trained NeRF model from checkpoint.
+Main renderer with CLI interface for custom camera poses and dataset cameras.
 
-**Parameters:**
-- `checkpoint_path`: Path to the trained model checkpoint
-- `device`: Device to run inference on ('cuda' or 'cpu')
+**Custom Camera Mode:**
+```bash
+python custom_camera_renderer.py --mode custom \
+    --position <x> <y> <z> \
+    --look_at <x> <y> <z> \
+    --up <x> <y> <z> \
+    --fov <degrees> \
+    --width <pixels> \
+    --height <pixels> \
+    --output <filename>
+```
 
-**Returns:**
-- Loaded CustomModel instance
+**Dataset Camera Mode:**
+```bash
+python custom_camera_renderer.py --mode dataset \
+    --split <train|test|val> \
+    --num_images <number> \
+    --output_dir <directory>
+```
 
-### `render_view(model, position, look_at, up=(0,1,0), fov=60.0, image_width=800, image_height=600)`
+### `fast_renderer.py`
 
-Renders a view from a specific camera pose.
+Fast batch renderer that loads the pipeline once and renders multiple images efficiently.
 
-**Parameters:**
-- `model`: Loaded CustomModel instance
-- `position`: Camera position in world coordinates (x, y, z)
-- `look_at`: Point to look at in world coordinates (x, y, z)
-- `up`: Up vector (x, y, z), default is (0, 1, 0)
-- `fov`: Field of view in degrees, default is 60.0
-- `image_width`: Width of the output image, default is 800
-- `image_height`: Height of the output image, default is 600
+```bash
+python fast_renderer.py \
+    --num_images <number> \
+    --width <pixels> \
+    --height <pixels> \
+    --output_dir <directory>
+```
 
-**Returns:**
-- Dictionary containing rendered images as numpy arrays:
-  - `'rgb'`: RGB image
-  - `'depth'`: Depth map
-  - `'accumulation'`: Accumulation map
+### `exact_nerfstudio_cli.py`
 
-### `render_and_save(model, position, look_at, output_path, ...)`
+Exact replication of nerfstudio CLI validation rendering.
 
-Renders an image from a pose and saves it to file.
-
-**Parameters:**
-- Same as `render_view()` plus:
-- `output_path`: Path to save the rendered image
-
-**Returns:**
-- Dictionary containing rendered images
+```bash
+python exact_nerfstudio_cli.py \
+    --split <train|test|val> \
+    --num_images <number> \
+    --output_dir <directory>
+```
 
 ## Advanced Usage
-
-### Using the NeRFRenderer Class
-
-For more advanced usage, you can use the `NeRFRenderer` class from `render_new_views.py`:
-
-```python
-from render_new_views import NeRFRenderer
-
-# Initialize renderer
-renderer = NeRFRenderer("path/to/checkpoint.ckpt")
-
-# Render multiple views
-renderer.render_and_save(
-    position=(1.0, 0.5, 1.0),
-    look_at=(0.0, 0.0, 0.0),
-    output_path="custom_view.png",
-    fov=45.0,
-    image_width=1024,
-    image_height=768
-)
-```
 
 ### Custom Camera Trajectories
 
 You can create custom camera trajectories by varying the position and look_at parameters:
 
-```python
-import numpy as np
-
+```bash
 # Create a circular trajectory
-radius = 3.0
-height = 1.0
-num_views = 8
-
-for i in range(num_views):
-    angle = 2 * np.pi * i / num_views
-    x = radius * np.cos(angle)
-    z = radius * np.sin(angle)
+for i in {0..7}; do
+    angle=$(echo "2 * 3.14159 * $i / 8" | bc -l)
+    x=$(echo "3.0 * c($angle)" | bc -l)
+    z=$(echo "3.0 * s($angle)" | bc -l)
     
-    render_and_save(
-        model=model,
-        position=(x, height, z),
-        look_at=(0.0, 0.0, 0.0),
-        output_path=f"trajectory_view_{i:03d}.png",
-        fov=60.0
-    )
+    python custom_camera_renderer.py --mode custom \
+        --position $x 1.0 $z \
+        --look_at 0.0 0.0 0.0 \
+        --output trajectory_view_$(printf "%03d" $i).png
+done
 ```
 
 ### Different Camera Orientations
 
 You can experiment with different up vectors and field of view settings:
 
-```python
+```bash
 # Top-down view
-render_and_save(
-    model=model,
-    position=(0.0, 5.0, 0.0),
-    look_at=(0.0, 0.0, 0.0),
-    up=(0.0, 0.0, 1.0),  # Custom up vector
-    output_path="top_down_view.png",
-    fov=90.0
-)
+python custom_camera_renderer.py --mode custom \
+    --position 0.0 5.0 0.0 \
+    --look_at 0.0 0.0 0.0 \
+    --up 0.0 0.0 1.0 \
+    --fov 90 \
+    --output top_down_view.png
 
 # Wide-angle view
-render_and_save(
-    model=model,
-    position=(2.0, 1.0, 2.0),
-    look_at=(0.0, 0.0, 0.0),
-    output_path="wide_angle_view.png",
-    fov=120.0  # Very wide field of view
-)
+python custom_camera_renderer.py --mode custom \
+    --position 2.0 1.0 2.0 \
+    --look_at 0.0 0.0 0.0 \
+    --fov 120 \
+    --output wide_angle_view.png
 ```
+
+## Performance Optimization
+
+### Rendering Speed
+
+Rendering speed depends heavily on resolution:
+
+- **100x75**: ~0.25s per image ⚡
+- **200x150**: ~0.9s per image
+- **400x300**: ~8s per image
+- **800x600**: ~30s+ per image
+
+### Optimization Tips
+
+1. **Use `fast_renderer.py`** for multiple images (loads pipeline once)
+2. **Lower resolution** for quick previews
+3. **Higher resolution** for final quality renders
+4. **GPU memory**: Monitor usage, reduce resolution if needed
 
 ## Tips for Good Results
 
-1. **Camera Distance**: Start with positions around 1-3 units from the scene center
+1. **Camera Distance**: Start with positions around 0.3-1.0 units from scene center
 2. **Field of View**: Use 45-90 degrees for most scenes
 3. **Look-at Point**: Usually the center of your scene (0, 0, 0) works well
-4. **Image Resolution**: Higher resolution (1024x768 or higher) for better quality
+4. **Image Resolution**: Higher resolution for better quality
 5. **Up Vector**: Usually (0, 1, 0) works well, but experiment for creative angles
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **Model not loading**: Make sure the checkpoint path is correct
-2. **CUDA out of memory**: Reduce image resolution or use CPU
+1. **White lines in images**: Use `exact_nerfstudio_cli.py` for dataset cameras
+2. **CUDA out of memory**: Reduce image resolution
 3. **Poor quality renders**: Try different camera positions and field of view
 4. **Import errors**: Make sure you're in the correct directory and nerfstudio is installed
 
-### Performance
+### Performance Issues
 
-- GPU rendering is much faster than CPU
-- Higher resolution images take longer to render
-- You can batch multiple renders for efficiency
+- **Slow rendering**: Use `fast_renderer.py` for multiple images
+- **Memory issues**: Reduce resolution or use CPU
+- **Pipeline loading**: Takes ~0.5s, but only once per session
 
 ## Example Output
 
-The scripts will generate PNG images that you can view with any image viewer. The RGB images show the rendered scene from the specified viewpoint, while depth and accumulation maps provide additional information about the 3D structure. 
+The scripts will generate PNG images that you can view with any image viewer. The RGB images show the rendered scene from the specified viewpoint.
+
+### File Organization
+
+```
+renders/
+├── custom_view.png          # Single custom camera render
+├── batch/                   # Fast batch renderer output
+│   ├── fast_render_000.png
+│   ├── fast_render_001.png
+│   └── ...
+└── validation/              # Dataset validation output
+    ├── test_image_00000.png
+    ├── test_image_00001.png
+    └── ...
+``` 
