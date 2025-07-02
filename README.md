@@ -134,12 +134,9 @@ The custom method uses the following default settings:
 ```
 custom_nerf/
 ├── my_method/                    # Custom method package
-│   ├── __init__.py
+│   ├── __init__.py              # Package initialization
 │   ├── custom_model.py          # Neural network model
-│   ├── custom_field.py          # Neural field representation
-│   ├── custom_pipeline.py       # Training/inference pipeline
-│   ├── custom_datamanager.py    # Data management
-│   └── custom_dataparser.py     # Data parsing
+│   └── my_config.py             # Method configuration
 ├── custom_camera_renderer.py    # Main renderer with custom poses
 ├── fast_renderer.py             # Fast batch rendering
 ├── exact_nerfstudio_cli.py      # Dataset validation rendering
