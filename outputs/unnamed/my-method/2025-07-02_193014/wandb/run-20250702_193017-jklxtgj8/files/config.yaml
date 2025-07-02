@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            3jqk5g3k41kemonxs9l6zg8poo0ht4qx:
+                args:
+                    - my-method
+                    - colmap
+                    - --data
+                    - /home/akash/custom_nerf/IUI3-RedSea
+                    - --images-path
+                    - Images_wb
+                cpu_count: 14
+                cpu_count_logical: 20
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "195722883072"
+                        used: "74544746496"
+                email: na21b003@smail.iitm.ac.in
+                executable: /home/akash/miniconda3/envs/nerfstudio/bin/python
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 2560
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-22bdc01d-c8d6-a111-1c0b-ce4ca3fff77a
+                host: akash-Vivobook-ASUSLaptop-K6602VU-K6602VU
+                memory:
+                    total: "16373252096"
+                os: Linux-6.8.0-60-generic-x86_64-with-glibc2.10
+                program: /home/akash/miniconda3/envs/nerfstudio/bin/ns-train
+                python: CPython 3.8.18
+                root: outputs/unnamed/my-method/2025-07-02_193014
+                startedAt: "2025-07-02T14:00:17.100860Z"
+                writerId: 3jqk5g3k41kemonxs9l6zg8poo0ht4qx
+        m: []
+        python_version: 3.8.18
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+            "4": 3.8.18
+            "5": 0.21.0
+            "10":
+                - 20
+            "12": 0.21.0
+            "13": linux-x86_64

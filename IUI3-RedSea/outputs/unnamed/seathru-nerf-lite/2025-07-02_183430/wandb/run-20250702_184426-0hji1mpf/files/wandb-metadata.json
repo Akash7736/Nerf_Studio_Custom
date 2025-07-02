@@ -1,0 +1,48 @@
+{
+  "os":  "Linux-6.8.0-60-generic-x86_64-with-glibc2.10",
+  "python":  "CPython 3.8.18",
+  "startedAt":  "2025-07-02T13:14:26.721321Z",
+  "args":  [
+    "seathru-nerf-lite",
+    "--vis",
+    "viewer+wandb",
+    "colmap",
+    "--data",
+    "/home/akash/seathru_nerf/SeathruNeRF_dataset/IUI3-RedSea",
+    "--images-path",
+    "Images_wb"
+  ],
+  "program":  "/home/akash/miniconda3/envs/nerfstudio/bin/ns-train",
+  "git":  {
+    "remote":  "git@github.com:AkerBP/seathru_nerf.git",
+    "commit":  "311cfc11593f046fd6de332ed5777406b495522a"
+  },
+  "email":  "na21b003@smail.iitm.ac.in",
+  "root":  "outputs/unnamed/seathru-nerf-lite/2025-07-02_183430",
+  "host":  "akash-Vivobook-ASUSLaptop-K6602VU-K6602VU",
+  "executable":  "/home/akash/miniconda3/envs/nerfstudio/bin/python",
+  "cpu_count":  14,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "195722883072",
+      "used":  "74535841792"
+    }
+  },
+  "memory":  {
+    "total":  "16373252096"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "memoryTotal":  "6439305216",
+      "cudaCores":  2560,
+      "architecture":  "Ada",
+      "uuid":  "GPU-22bdc01d-c8d6-a111-1c0b-ce4ca3fff77a"
+    }
+  ],
+  "cudaVersion":  "12.7",
+  "writerId":  "cqioe4trviv136y3ro00et8dhpctki0h"
+}

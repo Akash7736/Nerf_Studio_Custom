@@ -1,0 +1,309 @@
+_target:
+    value: nerfstudio.engine.trainer.Trainer
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            s4d05qqe4y5sgnsnp24gacjgcx9dqozy:
+                args:
+                    - seathru-nerf-lite
+                    - --vis
+                    - viewer+wandb
+                    - colmap
+                    - --data
+                    - /home/akash/seathru_nerf/SeathruNeRF_dataset/IUI3-RedSea
+                    - --images-path
+                    - Images_wb
+                cpu_count: 14
+                cpu_count_logical: 20
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "195722883072"
+                        used: "74535837696"
+                email: na21b003@smail.iitm.ac.in
+                executable: /home/akash/miniconda3/envs/nerfstudio/bin/python
+                git:
+                    commit: 311cfc11593f046fd6de332ed5777406b495522a
+                    remote: git@github.com:AkerBP/seathru_nerf.git
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 2560
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-22bdc01d-c8d6-a111-1c0b-ce4ca3fff77a
+                host: akash-Vivobook-ASUSLaptop-K6602VU-K6602VU
+                memory:
+                    total: "16373252096"
+                os: Linux-6.8.0-60-generic-x86_64-with-glibc2.10
+                program: /home/akash/miniconda3/envs/nerfstudio/bin/ns-train
+                python: CPython 3.8.18
+                root: outputs/unnamed/seathru-nerf-lite/2025-07-02_184540
+                startedAt: "2025-07-02T13:15:44.954646Z"
+                writerId: s4d05qqe4y5sgnsnp24gacjgcx9dqozy
+        m: []
+        python_version: 3.8.18
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+                - 61
+            "4": 3.8.18
+            "5": 0.21.0
+            "10":
+                - 20
+            "12": 0.21.0
+            "13": linux-x86_64
+data:
+    value: null
+experiment_name:
+    value: unnamed
+load_checkpoint:
+    value: null
+load_config:
+    value: null
+load_dir:
+    value: null
+load_scheduler:
+    value: true
+load_step:
+    value: null
+log_gradients:
+    value: false
+logging:
+    value:
+        local_writer:
+            _target: nerfstudio.utils.writer.LocalWriter
+            enable: true
+            max_log_size: 10
+            stats_to_track:
+                - ITER_TRAIN_TIME
+                - TRAIN_RAYS_PER_SEC
+                - CURR_TEST_PSNR
+                - VIS_RAYS_PER_SEC
+                - TEST_RAYS_PER_SEC
+                - ETA
+        max_buffer_size: 20
+        profiler: basic
+        relative_log_dir: .
+        steps_per_log: 10
+machine:
+    value:
+        device_type: cuda
+        dist_url: auto
+        machine_rank: 0
+        num_devices: 1
+        num_machines: 1
+        seed: 42
+max_num_iterations:
+    value: 50000
+method_name:
+    value: seathru-nerf-lite
+mixed_precision:
+    value: true
+optimizers:
+    value:
+        camera_opt:
+            mode: "off"
+            optimizer:
+                _target: torch.optim.adam.Adam
+                eps: 1e-08
+                lr: 0.0006
+                max_norm: null
+                weight_decay: 0.01
+            scheduler:
+                _target: nerfstudio.engine.schedulers.ExponentialDecayScheduler
+                lr_final: 6e-06
+                lr_pre_warmup: 1e-08
+                max_steps: 500000
+                ramp: cosine
+                warmup_steps: 0
+        fields:
+            optimizer:
+                _target: torch.optim.adam.Adam
+                eps: 1e-08
+                lr: 0.002
+                max_norm: 0.001
+                weight_decay: 0
+            scheduler:
+                _target: nerfstudio.engine.schedulers.ExponentialDecayScheduler
+                lr_final: 1e-05
+                lr_pre_warmup: 1e-08
+                max_steps: 500000
+                ramp: cosine
+                warmup_steps: 1024
+        proposal_networks:
+            optimizer:
+                _target: torch.optim.adam.Adam
+                eps: 1e-08
+                lr: 0.002
+                max_norm: null
+                weight_decay: 0
+            scheduler:
+                _target: nerfstudio.engine.schedulers.ExponentialDecayScheduler
+                lr_final: 1e-05
+                lr_pre_warmup: 1e-08
+                max_steps: 500000
+                ramp: cosine
+                warmup_steps: 1024
+output_dir:
+    value: outputs
+pipeline:
+    value:
+        _target: nerfstudio.pipelines.base_pipeline.VanillaPipeline
+        datamanager:
+            _target: nerfstudio.data.datamanagers.base_datamanager.VanillaDataManager
+            camera_optimizer: null
+            camera_res_scale_factor: 1
+            collate_fn: nerfstudio.data.utils.nerfstudio_collate.nerfstudio_collate
+            data: /home/akash/seathru_nerf/SeathruNeRF_dataset/IUI3-RedSea
+            dataparser:
+                _target: nerfstudio.data.dataparsers.colmap_dataparser.ColmapDataParser
+                assume_colmap_world_coordinate_convention: true
+                auto_scale_poses: true
+                center_method: poses
+                colmap_path: colmap/sparse/0
+                data: /home/akash/seathru_nerf/SeathruNeRF_dataset/IUI3-RedSea
+                depth_unit_scale_factor: 0.001
+                depths_path: null
+                downscale_factor: null
+                downscale_rounding_mode: floor
+                eval_interval: 8
+                eval_mode: interval
+                images_path: Images_wb
+                load_3D_points: true
+                masks_path: null
+                max_2D_matches_per_3D_point: 0
+                orientation_method: up
+                scale_factor: 1
+                scene_scale: 1
+                train_split_fraction: 0.9
+            eval_image_indices:
+                - 0
+            eval_num_images_to_sample_from: -1
+            eval_num_rays_per_batch: 4096
+            eval_num_times_to_repeat_images: -1
+            images_on_gpu: false
+            masks_on_gpu: false
+            patch_size: 1
+            pixel_sampler:
+                _target: nerfstudio.data.pixel_samplers.PixelSampler
+                fisheye_crop_radius: null
+                ignore_mask: false
+                is_equirectangular: false
+                keep_full_image: false
+                max_num_iterations: 100
+                num_rays_per_batch: 4096
+                rejection_sample_mask: true
+            train_num_images_to_sample_from: -1
+            train_num_rays_per_batch: 8192
+            train_num_times_to_repeat_images: -1
+        model:
+            _target: seathru.seathru_model.SeathruModel
+            acc_decay: 10000
+            beta_prior: 100
+            bottleneck_dim: 31
+            collider_params:
+                far_plane: 6
+                near_plane: 2
+            debug: false
+            disable_scene_contraction: false
+            enable_collider: true
+            eval_num_rays_per_chunk: 32768
+            far_plane: 10
+            features_per_level: 2
+            final_acc_loss_mult: 0.0001
+            hidden_dim: 64
+            hidden_dim_colour: 64
+            hidden_dim_medium: 64
+            implementation: tcnn
+            initial_acc_loss_mult: 0.0001
+            interlevel_loss_mult: 1
+            log2_hashmap_size: 19
+            loss_coefficients:
+                rgb_loss_coarse: 1
+                rgb_loss_fine: 1
+            max_res: 2048
+            medium_density_bias: 0
+            min_res: 16
+            near_plane: 0.05
+            num_layers: 2
+            num_layers_colour: 3
+            num_layers_medium: 2
+            num_levels: 16
+            num_nerf_samples_per_ray: 64
+            num_proposal_iterations: 2
+            num_proposal_samples_per_ray:
+                - 256
+                - 128
+            object_density_bias: 0
+            prior_on: transmittance
+            prompt: null
+            proposal_initial_sampler: piecewise
+            proposal_net_args_list:
+                - hidden_dim: 16
+                  log2_hashmap_size: 17
+                  max_res: 128
+                  num_levels: 5
+                  use_linear: false
+                - hidden_dim: 16
+                  log2_hashmap_size: 17
+                  max_res: 256
+                  num_levels: 5
+                  use_linear: false
+            proposal_update_every: 5
+            proposal_warmup: 5000
+            proposal_weights_anneal_max_num_iters: 15000
+            proposal_weights_anneal_slope: 10
+            rgb_loss_use_bayer_mask: false
+            use_gradient_scaling: false
+            use_new_rendering_eqs: true
+            use_proposal_weight_anneal: true
+            use_same_proposal_network: false
+            use_single_jitter: true
+            use_viewing_dir_obj_rgb: false
+project_name:
+    value: nerfstudio-project
+prompt:
+    value: null
+relative_model_dir:
+    value: nerfstudio_models
+save_only_latest_checkpoint:
+    value: true
+start_paused:
+    value: false
+steps_per_eval_all_images:
+    value: 25000
+steps_per_eval_batch:
+    value: 500
+steps_per_eval_image:
+    value: 500
+steps_per_save:
+    value: 2000
+timestamp:
+    value: 2025-07-02_184540
+use_grad_scaler:
+    value: false
+viewer:
+    value:
+        camera_frustum_scale: 0.1
+        default_composite_depth: true
+        image_format: jpeg
+        jpeg_quality: 75
+        make_share_url: false
+        max_num_display_images: 512
+        num_rays_per_chunk: 32768
+        quit_on_train_completion: false
+        relative_log_filename: viewer_log_filename.txt
+        websocket_host: 0.0.0.0
+        websocket_port: null
+        websocket_port_default: 7007
+vis:
+    value: viewer+wandb

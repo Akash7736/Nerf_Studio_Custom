@@ -1,0 +1,503 @@
+[1;33mlogging events to: outputs/unnamed/seathru-nerf-lite/[0m[1;33m2025[0m[1;33m-[0m[1;33m07[0m[1;33m-02_184540[0m
+[2;36m[18:45:47][0m[2;36m [0mPrinting max of [1;36m10[0m lines. Set flag [33m--logging.local-writer.max-log-[0m[33msize[0m[33m=[0m[1;33m0[0m to disable line        ]8;id=82627;file:///home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/writer.py\[2mwriter.py[0m]8;;\[2m:[0m]8;id=578856;file:///home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/writer.py#449\[2m449[0m]8;;\
+[2;36m           [0mwrapping.                                                                                       [2m             [0m
+Step (% Done)       Vis Rays / Sec       Train Iter (time)    ETA (time)
+-----------------------------------------------------------------------------------
+Step (% Done)       Vis Rays / Sec       Train Iter (time)    ETA (time)                             [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+0 (0.00%)           158.10 K             248.085 ms           3 h, 26 m, 44 s                        [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+10 (0.02%)          150.473 ms           2 h, 5 m, 22 s       57.99 K                                [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+20 (0.04%)          132.718 ms           1 h, 50 m, 33 s      62.79 K                                [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+30 (0.06%)          124.444 ms           1 h, 43 m, 38 s      67.32 K                                [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+40 (0.08%)          124.194 ms           1 h, 43 m, 24 s      67.47 K                                [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+50 (0.10%)          124.125 ms           1 h, 43 m, 20 s      67.49 K                                [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+60 (0.12%)          124.008 ms           1 h, 43 m, 12 s      67.58 K                                [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+70 (0.14%)          124.238 ms           1 h, 43 m, 23 s      67.51 K                                [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+80 (0.16%)          124.578 ms           1 h, 43 m, 38 s      67.34 K                                [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+90 (0.18%)          124.361 ms           1 h, 43 m, 26 s      67.46 K                                [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+100 (0.20%)         123.815 ms           1 h, 42 m, 58 s      67.80 K                                [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+110 (0.22%)         124.293 ms           1 h, 43 m, 20 s      67.56 K                                [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+120 (0.24%)         124.673 ms           1 h, 43 m, 38 s      67.38 K                                [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+210 (0.42%)         124.897 ms           1 h, 43 m, 38 s      67.35 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+130 (0.26%)         129.432 ms           1 h, 47 m, 34 s      65.62 K                                [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+210 (0.42%)         124.897 ms           1 h, 43 m, 38 s      67.35 K                                [0m
+220 (0.44%)         124.800 ms           1 h, 43 m, 32 s      67.35 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+140 (0.28%)         129.923 ms           1 h, 47 m, 57 s      65.28 K                                [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+210 (0.42%)         124.897 ms           1 h, 43 m, 38 s      67.35 K                                [0m
+220 (0.44%)         124.800 ms           1 h, 43 m, 32 s      67.35 K                                [0m
+230 (0.46%)         125.018 ms           1 h, 43 m, 42 s      67.10 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+150 (0.30%)         125.109 ms           1 h, 43 m, 56 s      67.11 K                                [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+210 (0.42%)         124.897 ms           1 h, 43 m, 38 s      67.35 K                                [0m
+220 (0.44%)         124.800 ms           1 h, 43 m, 32 s      67.35 K                                [0m
+230 (0.46%)         125.018 ms           1 h, 43 m, 42 s      67.10 K                                [0m
+240 (0.48%)         125.043 ms           1 h, 43 m, 42 s      67.09 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Step (% Done)       Train Iter (time)    ETA (time)           Train Rays / Sec                       [0m
+-----------------------------------------------------------------------------------                  [0m
+160 (0.32%)         125.575 ms           1 h, 44 m, 18 s      66.89 K                                [0m
+170 (0.34%)         125.475 ms           1 h, 44 m, 12 s      66.89 K                                [0m
+180 (0.36%)         124.925 ms           1 h, 43 m, 43 s      67.19 K                                [0m
+190 (0.38%)         125.458 ms           1 h, 44 m, 9 s       66.87 K                                [0m
+200 (0.40%)         125.487 ms           1 h, 44 m, 9 s       66.89 K                                [0m
+210 (0.42%)         124.897 ms           1 h, 43 m, 38 s      67.35 K                                [0m
+220 (0.44%)         124.800 ms           1 h, 43 m, 32 s      67.35 K                                [0m
+230 (0.46%)         125.018 ms           1 h, 43 m, 42 s      67.10 K                                [0m
+240 (0.48%)         125.043 ms           1 h, 43 m, 42 s      67.09 K                                [0m
+250 (0.50%)         124.870 ms           1 h, 43 m, 32 s      67.21 K                                [0m
+---------------------------------------------------------------------------------------------------- [0m
+[30;42mViewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                              [0m
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/viewer/render_state_machine.py", line 227, in run
+    outputs = self._render_img(action.camera_state)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/viewer/render_state_machine.py", line 170, in _render_img
+    outputs = self.viewer.get_model().get_outputs_for_camera(camera, obb_box=obb)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/models/base_model.py", line 173, in get_outputs_for_camera
+    return self.get_outputs_for_camera_ray_bundle(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/models/base_model.py", line 195, in get_outputs_for_camera_ray_bundle
+    outputs = self.forward(ray_bundle=ray_bundle)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/models/base_model.py", line 143, in forward
+    return self.get_outputs(ray_bundle)
+  File "/home/akash/seathru_nerf/seathru/seathru_model.py", line 370, in get_outputs
+    field_outputs = self.field.forward(ray_samples)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/fields/base_field.py", line 124, in forward
+    density, density_embedding = self.get_density(ray_samples)
+  File "/home/akash/seathru_nerf/seathru/seathru_field.py", line 174, in get_density
+    h_object = self.object_mlp_base(positions_flat).view(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/field_components/encodings.py", line 465, in forward
+    return self.tcnn_encoding(in_tensor)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 190, in forward
+    output = _module_function.apply(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/autograd/function.py", line 539, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 102, in forward
+    native_ctx, output = native_tcnn_module.fwd(input, params)
+RuntimeError: /tmp/pip-req-build-4b83o2tc/include/tiny-cuda-nn/gpu_memory.h:584 cuMemCreate(&m_handles.back(), n_bytes_to_allocate, &prop, 0) failed: CUDA_ERROR_OUT_OF_MEMORY
+Printing profiling stats, from longest to shortest duration in seconds
+Trainer.train_iteration: [1;36m0.1257[0m
+VanillaPipeline.get_train_loss_dict: [1;36m0.0568[0m
+Trainer.eval_iteration: [1;36m0.0000[0m
+Traceback (most recent call last):
+  File "/home/akash/miniconda3/envs/nerfstudio/bin/ns-train", line 8, in <module>
+    sys.exit(entrypoint())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 262, in entrypoint
+    main(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 247, in main
+    launch(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 189, in launch
+    main_func(local_rank=0, world_size=world_size, config=config)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 100, in train_loop
+    trainer.train()
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 266, in train
+    loss, loss_dict, metrics_dict = self.train_iteration(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 502, in train_iteration
+    _, loss_dict, metrics_dict = self.pipeline.get_train_loss_dict(step=step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/pipelines/base_pipeline.py", line 300, in get_train_loss_dict
+    model_outputs = self._model(ray_bundle)  # train distributed data parallel model if world_size > 1
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/models/base_model.py", line 143, in forward
+    return self.get_outputs(ray_bundle)
+  File "/home/akash/seathru_nerf/seathru/seathru_model.py", line 365, in get_outputs
+    ray_samples, weights_list, ray_samples_list = self.proposal_sampler(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/model_components/ray_samplers.py", line 50, in forward
+    return self.generate_ray_samples(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/model_components/ray_samplers.py", line 609, in generate_ray_samples
+    density = density_fns[i_level](ray_samples.frustums.get_positions())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/fields/base_field.py", line 67, in density_fn
+    density, _ = self.get_density(ray_samples)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/fields/density_fields.py", line 106, in get_density
+    self.mlp_base(positions_flat).view(*ray_samples.frustums.shape, -1).to(positions)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/field_components/encodings.py", line 465, in forward
+    return self.tcnn_encoding(in_tensor)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 190, in forward
+    output = _module_function.apply(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/autograd/function.py", line 539, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 102, in forward
+    native_ctx, output = native_tcnn_module.fwd(input, params)
+RuntimeError: /tmp/pip-req-build-4b83o2tc/include/tiny-cuda-nn/gpu_memory.h:584 cuMemCreate(&m_handles.back(), n_bytes_to_allocate, &prop, 0) failed: CUDA_ERROR_OUT_OF_MEMORY
+Traceback (most recent call last):
+  File "/home/akash/miniconda3/envs/nerfstudio/bin/ns-train", line 8, in <module>
+    sys.exit(entrypoint())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 262, in entrypoint
+    main(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 247, in main
+    launch(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 189, in launch
+    main_func(local_rank=0, world_size=world_size, config=config)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 100, in train_loop
+    trainer.train()
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 266, in train
+    loss, loss_dict, metrics_dict = self.train_iteration(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 502, in train_iteration
+    _, loss_dict, metrics_dict = self.pipeline.get_train_loss_dict(step=step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/pipelines/base_pipeline.py", line 300, in get_train_loss_dict
+    model_outputs = self._model(ray_bundle)  # train distributed data parallel model if world_size > 1
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/models/base_model.py", line 143, in forward
+    return self.get_outputs(ray_bundle)
+  File "/home/akash/seathru_nerf/seathru/seathru_model.py", line 365, in get_outputs
+    ray_samples, weights_list, ray_samples_list = self.proposal_sampler(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/model_components/ray_samplers.py", line 50, in forward
+    return self.generate_ray_samples(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/model_components/ray_samplers.py", line 609, in generate_ray_samples
+    density = density_fns[i_level](ray_samples.frustums.get_positions())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/fields/base_field.py", line 67, in density_fn
+    density, _ = self.get_density(ray_samples)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/fields/density_fields.py", line 106, in get_density
+    self.mlp_base(positions_flat).view(*ray_samples.frustums.shape, -1).to(positions)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/field_components/encodings.py", line 465, in forward
+    return self.tcnn_encoding(in_tensor)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 190, in forward
+    output = _module_function.apply(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/torch/autograd/function.py", line 539, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/tinycudann/modules.py", line 102, in forward
+    native_ctx, output = native_tcnn_module.fwd(input, params)
+RuntimeError: /tmp/pip-req-build-4b83o2tc/include/tiny-cuda-nn/gpu_memory.h:584 cuMemCreate(&m_handles.back(), n_bytes_to_allocate, &prop, 0) failed: CUDA_ERROR_OUT_OF_MEMORY

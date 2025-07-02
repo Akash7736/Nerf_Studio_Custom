@@ -1,0 +1,2 @@
+[nerfstudio.method_configs]
+my-method = my_method.my_config:MyMethod

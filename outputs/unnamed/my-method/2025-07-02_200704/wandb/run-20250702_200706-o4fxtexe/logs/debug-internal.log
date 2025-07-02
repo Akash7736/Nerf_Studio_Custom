@@ -1,0 +1,12 @@
+{"time":"2025-07-02T20:07:06.565765123+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-02T20:07:07.004578717+05:30","level":"INFO","msg":"stream: created new stream","id":"o4fxtexe"}
+{"time":"2025-07-02T20:07:07.004664092+05:30","level":"INFO","msg":"stream: started","id":"o4fxtexe"}
+{"time":"2025-07-02T20:07:07.004761913+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T20:07:07.004824574+05:30","level":"INFO","msg":"handler: started","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T20:07:07.004909961+05:30","level":"INFO","msg":"sender: started","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T21:35:50.456615537+05:30","level":"INFO","msg":"stream: closing","id":"o4fxtexe"}
+{"time":"2025-07-02T21:35:51.798827872+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-02T21:35:52.173275995+05:30","level":"INFO","msg":"handler: closed","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T21:35:52.173295913+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T21:35:52.173310593+05:30","level":"INFO","msg":"sender: closed","stream_id":"o4fxtexe"}
+{"time":"2025-07-02T21:35:52.173358772+05:30","level":"INFO","msg":"stream: closed","id":"o4fxtexe"}

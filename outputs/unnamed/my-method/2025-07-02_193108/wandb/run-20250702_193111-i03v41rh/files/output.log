@@ -1,0 +1,44 @@
+[1;33mlogging events to: outputs/unnamed/my-method/[0m[1;33m2025[0m[1;33m-[0m[1;33m07[0m[1;33m-02_193108[0m
+Printing profiling stats, from longest to shortest duration in seconds
+Trainer.train_iteration: [1;36m0.3876[0m
+VanillaPipeline.get_train_loss_dict: [1;36m0.2514[0m
+Traceback (most recent call last):
+  File "/home/akash/miniconda3/envs/nerfstudio/bin/ns-train", line 8, in <module>
+    sys.exit(entrypoint())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 262, in entrypoint
+    main(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 247, in main
+    launch(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 189, in launch
+    main_func(local_rank=0, world_size=world_size, config=config)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 100, in train_loop
+    trainer.train()
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 266, in train
+    loss, loss_dict, metrics_dict = self.train_iteration(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 527, in train_iteration
+    self.optimizers.scheduler_step_all(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/optimizers.py", line 190, in scheduler_step_all
+    scheduler.step()
+AttributeError: 'NoneType' object has no attribute 'step'
+Traceback (most recent call last):
+  File "/home/akash/miniconda3/envs/nerfstudio/bin/ns-train", line 8, in <module>
+    sys.exit(entrypoint())
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 262, in entrypoint
+    main(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 247, in main
+    launch(
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 189, in launch
+    main_func(local_rank=0, world_size=world_size, config=config)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/scripts/train.py", line 100, in train_loop
+    trainer.train()
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 266, in train
+    loss, loss_dict, metrics_dict = self.train_iteration(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/utils/profiler.py", line 111, in inner
+    out = func(*args, **kwargs)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/trainer.py", line 527, in train_iteration
+    self.optimizers.scheduler_step_all(step)
+  File "/home/akash/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/engine/optimizers.py", line 190, in scheduler_step_all
+    scheduler.step()
+AttributeError: 'NoneType' object has no attribute 'step'

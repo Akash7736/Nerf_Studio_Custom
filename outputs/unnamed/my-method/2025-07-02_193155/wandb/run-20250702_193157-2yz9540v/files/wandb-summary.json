@@ -1,0 +1,1 @@
+{"_timestamp":1.7514649823130043e+09,"Train Loss Dict/rgb_loss":0.011418642476201057,"_wandb":{"runtime":100},"_step":499,"_runtime":100.11352767,"Train Loss":0.011418642476201057,"learning_rate/fields":0.0009261187281287943,"Train Rays / Sec":33226.35202840451,"Train Iter (time)":0.12331540584564209,"ETA (time)":3637.927787852287,"GPU Memory (MB)":1195.2412109375}
